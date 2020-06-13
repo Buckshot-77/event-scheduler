@@ -16,13 +16,10 @@ let session = 1;
 let networkingTime;
 
 let date = new Date("2020-06-12 09:00");
-// console.log(date.toString());
 
 function addMinutes(date, minutes) {
   return new Date(date.getTime() + minutes * 60000);
 }
-
-// tracksArray.forEach((element) => console.log(element));
 
 const getSchedule = async (req, res) => {
   try {
